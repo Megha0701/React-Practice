@@ -1,6 +1,7 @@
 //1) Import the React and ReactDom bibraries
 import React from 'react';
 import  ReactDOM  from 'react-dom/client';
+import App from './App';
 
 //2)get a refernce to div with id root
 const el = document.getElementById('root');
@@ -9,8 +10,5 @@ const el = document.getElementById('root');
 const root = ReactDOM.createRoot(el);
 
 //4)Create a component
-function App() {
-    return <input style = {{border:'3px solid red'}} type = "number" min={5}/>
-}
-
+//5)show the component on the screen
 root.render(<App/>);
