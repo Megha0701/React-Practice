@@ -1,9 +1,13 @@
 import React from 'react'
+import ProfileCard from './ProfileCard';
 
 function App() {
   return (
     <div>
-      <h1>Hello</h1>
+      <div>Personal Digital Assistance</div>
+      <ProfileCard title="Alexa" handle="@alexa99"/>
+      <ProfileCard title="Cortana" handle="@cortana31"/>
+      <ProfileCard title="Siri" handle="@siri01"/>
     </div>
   )
 }
